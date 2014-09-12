@@ -11,9 +11,10 @@ import imaplib
 import traceback
 import sys
 
-mailServer = 'mail.rebaca.com'
-mailId = 'pavel.sur@rebaca.com'
-mailPw = 'taXc0d3r!'
+# sample input
+mailServer = 'mail.XXX.com'
+mailId = 'abc@XXX.com'
+mailPw = '@ftyh^'
 desiredText = "My test"
 
 mail = poplib.POP3(mailServer)
